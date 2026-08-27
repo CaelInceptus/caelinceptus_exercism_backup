@@ -229,10 +229,6 @@ global can_double_down
 can_double_down:
     ; This function takes as parameters two numbers each representing a card
     ; The function should return TRUE if the two cards form a hand that can be doubled down, and FALSE otherwise
-global can_double_down
-can_double_down:
-    ; This function takes as parameters two numbers each representing a card
-    ; The function should return TRUE if the two cards form a hand that can be doubled down, and FALSE otherwise
     
     mov r10, rdi
     cmp r10, 14
